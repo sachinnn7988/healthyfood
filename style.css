@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background: #e3ecc2;
+}
+
+/* section haeder */
+
+nav {
+    padding: 10px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7287ae;
+    height: 70px;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #7287ae;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.menu-icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.heading {
+    text-align: center;
+    background: #7287ae;
+    color: #fff;
+    height: 300px;
+    padding-top: 60px;
+
+}
+
+.heading h1 {
+    font-size: 70px;
+}
+
+.heading p {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* section haeder end */
+/* section menu */
+.heading2 h2 {
+    text-align: center;
+    color: #7287ae;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    margin-left: 120px;
+    color: #504f4f;
+
+}
+
+.cards h2 {
+    padding: 10px 20px;
+    background: #fff;
+    width: 339px;
+
+
+}
+
+.cards h3 {
+    padding: 10px 20px;
+    background: #fff;
+    width: 339px;
+
+}
+
+.cards p {
+    padding: 10px 20px;
+    background: #fff;
+    width: 339px;
+
+}
+
+.btn {
+    text-align: center;
+}
+
+
+.btn button {
+    margin-top: 50PX;
+    padding: 17px 60px;
+    border-radius: 30px;
+    color: white;
+    background: #7287ae;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.btn button:hover {
+    background-color: #fff;
+    color: #7287ae;
+}
+
+/* section menu end */
+/* section discount */
+.dis1 {
+    display: flex;
+    margin-top: 150px;
+
+}
+
+.dis2 {
+    display: flex;
+
+}
+
+.heading3 {
+    width: 60%;
+    background: #fff;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+
+.heading3 p {
+    width: 350px;
+    padding-top: 40px;
+}
+
+.heading3 h2 {
+    font-size: 50px;
+
+
+}
+
+.btn3 button {
+    margin-top: 50PX;
+    padding: 16px 60px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    background: #7287ae;
+    font-size: 15px;
+
+}
+
+.heading4 {
+    padding-top: 200px;
+    padding-left: 100px;
+    background: #fff;
+    width: 60%;
+
+}
+
+
+.heading4 p {
+    width: 350px;
+    padding-top: 40px;
+}
+
+.heading4 h2 {
+    font-size: 50px;
+
+}
+
+/* section order */
+
+.order {
+    text-align: center;
+    background-color: #7287ae;
+    color: #fff;
+    height: 500px;
+    width: 100%;
+}
+
+.heading5 {
+    padding-top: 50px;
+    font-size: 26px;
+
+}
+
+.number {
+    display: flex;
+    gap: 50px;
+    margin-left: 170px;
+    margin-top: 90px;
+}
+
+.number h2 {
+    background-color: #fff;
+    color: #7287ae;
+    width: 103px;
+    height: 100px;
+    border-radius: 60px;
+    padding: 30px;
+    margin-left: 100px;
+    font-size: 40px;
+
+}
+
+.number h3 {
+    padding: 30px 0px;
+    font-size: 35px;
+}
+
+/* section order end */
+/* section banner */
+.img2 img {
+    width: 100%;
+}
+
+.bg-img {
+       height: 650px;
+}
+
+.heading6 {
+    text-align: center;
+    color: #7287ae;
+    position: relative;
+    top: -500px;
+    bottom: 50px;
+}
+
+.heading6 p {
+    padding: 90px 0px;
+    font-size: 22px;
+}
+
+.heading6 h2 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.btn4 button {
+    padding: 18px 60px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: lighter;
+    background: #7287ae;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+/* section banner end */
+.heading7{
+    text-align: center;
+    color: #7287ae;
+    margin-top: 50px;
+}
+
+.fa-brands{
+    font-size: 50px;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.fa-sharp{
+    font-size: 90px;
+}
+
+.heading7 p{
+    padding: 20px 0px;
+    font-size: 22px;
+}
+
+.heading7 h2{
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 150px;
+    padding: 0 210px;
+    gap: 100px;
+    color: #fff;
+    background-color: #7287ae;
+    height: 420px;
+    text-align: left;
+}
+
+.footer p {
+    padding: 30px 0;
+}
+
+.soical {
+    margin-top: 150px;
+}
+
+.other {
+    margin-top: 150px;
+}
+
+.services {
+    margin-top: 150px;
+}
+
+.about {
+    margin-top: 150px;
+}
