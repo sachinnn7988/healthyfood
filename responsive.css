@@ -744,7 +744,7 @@
         right: 0;
         flex-direction: column;
         text-align: center;
-        background:#0d244e;
+        background: #0d244e;
         gap: 0;
         overflow: hidden;
     }
@@ -773,5 +773,6 @@
 
 
 }
+
 
 
