@@ -208,7 +208,7 @@
     .cards {
         display: block;
         margin-top: 80px;
-        margin-left: 40px;
+        margin-left: 30px;
     }
 
 
@@ -735,6 +735,14 @@
 
 }
 
+@media (min-width:412px) and (max-width:430px) {
+    .cards {
+
+        margin-left: 40px;
+    }
+
+
+}
 
 @media (max-width:900px) {
     nav ul {
@@ -773,6 +781,7 @@
 
 
 }
+
 
 
 
