@@ -10,7 +10,7 @@ body {
     height: 100%;
     width: 100%;
     font-family: sans-serif;
-    background: #e3ecc2;
+    background: #fff9f9;
 }
 
 /* section haeder */
@@ -338,3 +338,4 @@ ul li a:hover {
 .about {
     margin-top: 150px;
 }
+
