@@ -714,6 +714,26 @@
     }
 
 }
+@media (min-width:340px) and (max-width:340px) {
+    .cards {
+
+        margin-left: 10px;
+    }
+
+
+}
+
+@media (min-width:344px) and (max-width:344px) {
+    .cards {
+
+        margin-left: 2px;
+    }
+
+    .number {
+        margin-left: -30px;
+    }
+
+}
 
 
 @media (max-width:900px) {
@@ -753,3 +773,4 @@
 
 
 }
+
