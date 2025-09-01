@@ -1,5 +1,5 @@
 /* small phone */
-@media (min-width:344px) and (max-width:378px) {
+@media (min-width:342px) and (max-width:378px) {
     .heading h1 {
         font-size: 50px;
     }
@@ -717,7 +717,7 @@
 @media (min-width:340px) and (max-width:340px) {
     .cards {
 
-        margin-left: 0px;
+        margin-left: 5px;
     }
 
 
@@ -773,6 +773,7 @@
 
 
 }
+
 
 
 
