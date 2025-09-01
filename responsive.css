@@ -717,7 +717,7 @@
 @media (min-width:340px) and (max-width:340px) {
     .cards {
 
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
 
@@ -773,6 +773,7 @@
 
 
 }
+
 
 
 
